@@ -6,7 +6,7 @@ export default function Die(props){
     }
 
     return(
-        <div className="shadow-md h-[50px] w-[50px] bg-white flex justify-center items-center cursor-pointer" style={styles} onClick={props.HoldDice}>
+        <div className="shadow-lg h-[50px] w-[50px] bg-white flex justify-center items-center cursor-pointer rounded-xl" style={styles} onClick={props.HoldDice}>
             <h2 className="text-[1.5rem]">{props.value}</h2>
         </div>
     )

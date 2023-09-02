@@ -63,7 +63,7 @@ export default function App(){
 
   return (   
     
-    <main className='bg-[#f5f5f5] p-5 h-[400px] max-w-[800px] rounded-[5px] flex flex-col justify-center items-center text-center'>
+    <main className='bg-[#f5f5f5] p-5 h-[400px] max-w-[800px] rounded-[5px] flex flex-col justify-center items-center text-center m-auto'>
       <h1 className='font-bold p-2'>Tenzies</h1> 
       <p className='p-2 mb-5'>Roll until all dice are same. Click each die to freeze it at its current value between rolls</p>
       <div className='grid grid-cols-5 gap-5'>
